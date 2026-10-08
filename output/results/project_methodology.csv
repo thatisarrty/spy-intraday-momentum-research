@@ -1,0 +1,24 @@
+Item,Value
+Asset,SPY
+Frequency,1-minute
+Data Start,2018-01-02
+Data End,2024-04-30
+Train Start,2018-01-02
+Train End,2022-12-31
+Test Start,2023-01-01
+Test End,2024-04-30
+Noise Area Lookback,14
+Volatility Multiplier,1.0
+Decision Frequency,30 minutes
+First Decision,10:00
+Last Decision,15:30
+Stop,Current Band + VWAP
+Sizing,Dynamic volatility sizing
+Target Daily Volatility,0.02
+Maximum Leverage,4.0
+Commission Per Share,0.0035
+Slippage Per Share,0.001
+Original Strategy v1,Adaptive Volatility Multiplier
+Original Strategy v1 Outcome,Rejected on train
+Original Strategy v2,Confirmed Breakout
+Original Strategy v2 Outcome,Rejected after OOS evaluation

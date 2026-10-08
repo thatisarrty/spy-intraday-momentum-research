@@ -1,0 +1,17 @@
+Parameter,Value
+Strategy Name,Confirmed Breakout v2
+Noise Area Lookback,14
+Volatility Multiplier,1.0
+Confirmation Requirement,2 consecutive same-direction breakout signals
+Decision Frequency,30 minutes
+First Decision Time,10:00
+Last Decision Time,15:30
+Stop Rule,Current Band + VWAP
+Sizing Rule,Dynamic volatility sizing
+Target Daily Volatility,0.02
+Maximum Leverage,4.0
+Commission Per Share,0.0035
+Slippage Per Share,0.001
+Train End,2022-12-31
+Test Start,2023-01-01
+Status,Frozen before OOS evaluation

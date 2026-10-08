@@ -1,0 +1,10 @@
+Parameter,Value
+Initial Capital,100000
+Noise Area Lookback,14
+Volatility Multiplier,1.0
+Commission Per Share,0.0035
+Slippage Per Share,0.001
+Target Daily Volatility,0.02
+Maximum Leverage,4.0
+Train End,2022-12-31
+Test Start,2023-01-01
